@@ -43,7 +43,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score**
 ```
 
-After you import all of the dependencies you need to download the **parkinsons.data** and **/telemonitoring/parkinsons_UPDRS.data** files from **https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons** Then upload these data sets to ur azure project.
+After you import all of the dependencies you need to download the **parkinsons.data** and **/telemonitoring/parkinsons_UPDRS.data** files from **https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons** Then upload these data sets to your azure project.
 
 
-
+Next run all of the different lines and view the output to see that it matches what I wrote above
