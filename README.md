@@ -1,3 +1,5 @@
+# Description of My Idea in this Project
+
 This repository outlines my progress in developing my own Machine Learning (ML) Model Using the library XGboost which uses gradient boosting to create a powerful committee from weak classifiers. It also details my development of a sequential Neural Network (NN) using the Keras library. In this project, I aimed to demonstrate how we can use Machine Learning and Neural Networks to aid in predicting Parkinsons disease in individuals. I aimed to demonstrate this as Parkinsons is a very complex disease with large amounts of uncertainty in regards to how its caused, how it can be identified and how it can be cured or prevented. But with the help of AI/ML, we can make more informed decisions about these uncertainties and these decisions may end up saving lives.
 
 My idea for the ML/AI project in the MSA 2020 Bootcamp was to create an ML model which used a dataset of Parkinsons patients to determine which people had Parkinsons, I managed to create this model with a ~95% accuracy which is something that I am proud of. I made this model with the use of the following libraries:
@@ -22,22 +24,22 @@ However, I wasn't satisfied with just having a working ML model so I did some in
 
 Overall, I'm really happy with what My ML and NN models achieved with the Parkinsons datasets, and I'm really keen to create more ML models in the future :)
 
-How to set up the dependencies and train my data:
+## **How to set up the dependencies and train my data:**
 
 In order to be able to use the xgboost library you need to install it using the 
-!pip install xgboost 
+**!pip install xgboost** 
 Command.
 
 In regards to other libraries they can all be imported normally see code below
-import numpy as np
+**import numpy as np
 import pandas as pd
 import os, sys
 from sklearn.preprocessing import MinMaxScaler
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score**
 
-After you import all of the dependencies you need to download the parkinsons.data and /telemonitoring/parkinsons_UPDRS.data files from https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/. Then upload these data sets to ur azure project.
+After you import all of the dependencies you need to download the **parkinsons.data** and **/telemonitoring/parkinsons_UPDRS.data** files from **https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons** Then upload these data sets to ur azure project.
 
 
 
