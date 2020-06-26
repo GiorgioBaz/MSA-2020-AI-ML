@@ -27,10 +27,13 @@ Overall, I'm really happy with what My ML and NN models achieved with the Parkin
 ## **How to set up the dependencies and train my data:**
 
 In order to be able to use the xgboost library you need to install it using the 
-**!pip install xgboost** 
+```
+**!pip install xgboost**
+```
 Command.
 
 In regards to other libraries they can all be imported normally see code below
+```
 **import numpy as np
 import pandas as pd
 import os, sys
@@ -38,6 +41,7 @@ from sklearn.preprocessing import MinMaxScaler
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score**
+```
 
 After you import all of the dependencies you need to download the **parkinsons.data** and **/telemonitoring/parkinsons_UPDRS.data** files from **https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons** Then upload these data sets to ur azure project.
 
