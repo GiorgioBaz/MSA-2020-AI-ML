@@ -24,6 +24,9 @@ However, I wasn't satisfied with just having a working ML model so I did some in
 
 Overall, I'm really happy with what My ML and NN models achieved with the Parkinsons datasets, and I'm really keen to create more ML models in the future :)
 
+###**Environment Setup and Dependencies**
+All development was done within Microsoft Azure Notebooks, writing all code into a Jupyter notebook (using Python 3.6). This proved to be extremely helpful, as very little time was dedicated to setting up the development environment – with only the notebook file needing to be created.
+
 ## **How to set up the dependencies and train my data:**
 
 In order to be able to use the xgboost library you need to install it using the 
